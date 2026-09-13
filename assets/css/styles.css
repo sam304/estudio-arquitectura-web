@@ -110,3 +110,21 @@ header .menu-toggle:not([hidden]){width:58px;font-size:11px;min-height:44px;padd
 .page-content{padding-top:24px}
 .services-banner{margin-bottom:20px}
 }
+
+/* Small visual menu outline with an unchanged 44px touch target. */
+@media(max-width:700px){
+header .menu-toggle:not([hidden]){
+position:relative;isolation:isolate;border:0;background:transparent;
+width:58px;min-height:44px;height:44px;padding:0 4px;
+font-size:11px;line-height:1;color:var(--ink);
+}
+header .menu-toggle::before{
+content:"";position:absolute;inset:9px 0;border:1px solid var(--ink);
+pointer-events:none;z-index:-1;
+}
+header .menu-toggle:hover::before{background:#ece4da}
+.hero .eyebrow{
+white-space:nowrap;font-size:clamp(7px,2.05vw,9px);
+letter-spacing:0;line-height:1.3;
+}
+}
