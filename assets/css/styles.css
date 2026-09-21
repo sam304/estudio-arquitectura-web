@@ -167,7 +167,7 @@ letter-spacing:0;line-height:1.3;
 .process-list h3{margin:0 0 9px;font:12px/1.5 Arial,Helvetica,sans-serif;letter-spacing:1.3px;text-transform:uppercase}
 .process-list p{margin:0;font-size:14px;color:var(--muted)}
 .inquiry-form{min-width:0}
-.inquiry-form h2{font-size:32px;overflow-wrap:break-word}
+.inquiry-form h2{font-size:32px;overflow-wrap:normal;word-break:normal;hyphens:none}
 .inquiry-form .eyebrow{margin-bottom:14px}
 .inquiry-form .note{font-size:13px}
 .inquiry-form fieldset:disabled{opacity:1}
@@ -190,7 +190,7 @@ letter-spacing:0;line-height:1.3;
  .resource-list li{grid-template-columns:24px minmax(0,1fr);gap:14px;padding:26px 0}
  .resource-list li>a{grid-column:2}
  .resource-list h2{font-size:27px}
- .inquiry-form h2{font-size:30px}
+ .inquiry-form h2{font-size:clamp(22px,7vw,30px);line-height:1.2}
 }
 
 /* Final mobile and desktop refinements. */
