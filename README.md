@@ -3,8 +3,10 @@
 Sitio multipágina en HTML, CSS y JavaScript nativo. Sin frameworks, paquetes, compilación ni servicios externos.
 
 ## Estado
-Primera implementación. No publicada ni verificada en navegador. El entorno de ejecución local no estaba disponible al crearla.
-Logo original pendiente de recuperar. Nombre, fotografías y credenciales pendientes de validación.
+Actualización estructural y UX: cinco servicios con páginas propias, Home narrativa, índice compacto y biblioteca con fichas de recursos pendientes, en español e inglés.
+Los formularios contextuales están preparados para una integración futura y continúan desactivados hasta disponer de backend y documentos aprobados. Consulte [INTEGRATION.md](INTEGRATION.md) para rutas, contrato de integración y activación.
+Las páginas fueron revisadas localmente en escritorio y móvil. Esta actualización no se ha desplegado ni validado en el hosting.
+Logo definitivo suministrado por el propietario e incorporado a la cabecera y al favicon. Fotografías y credenciales pendientes de validación.
 Formularios desactivados: no reciben datos ni simulan envíos. No hay PDFs publicados.
 Esta versión NO constituye un MVP comercial terminado.
 
