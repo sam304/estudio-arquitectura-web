@@ -175,6 +175,12 @@ letter-spacing:0;line-height:1.3;
 .inquiry-form button:disabled,.inquiry-form fieldset:disabled button{background:#625b55;border-color:#625b55}
 .inquiry-form .direct-contact{display:flex;gap:10px 20px;flex-wrap:wrap;margin-top:18px}
 .direct-contact a{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
+a[href^="tel:"]{white-space:nowrap;word-break:normal;overflow-wrap:normal}
+.contact-channels a[href^="tel:"]{display:inline-block;min-height:44px}
+@media(max-width:700px){
+ .inquiry-form .direct-contact{flex-direction:column;align-items:flex-start;gap:8px}
+ .contact-channels .phone-label{display:block}
+}
 .resource-list li{display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:28px;align-items:start;border-top:1px solid var(--accent);padding:32px 0}
 .resource-list .eyebrow{font-size:10px;margin-bottom:12px}
 .resource-list h2{font-size:30px;margin-bottom:12px}
